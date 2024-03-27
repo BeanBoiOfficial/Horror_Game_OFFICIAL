@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"OImTired",
-  "eventList":[],
+  "%Name":"oPlayer",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"OImTired",
+  "name":"oPlayer",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sTEST",
-    "path":"sprites/sTEST/sTEST.yy",
+    "name":"sPlayerDown",
+    "path":"sprites/sPlayerDown/sPlayerDown.yy",
   },
   "spriteMaskId":null,
   "visible":true,

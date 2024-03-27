@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oTEST",
+  "%Name":"oBlockTEST",
   "eventList":[],
   "managed":true,
-  "name":"oTEST",
+  "name":"oBlockTEST",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite2",
-    "path":"sprites/Sprite2/Sprite2.yy",
+    "name":"oBlock",
+    "path":"sprites/oBlock/oBlock.yy",
   },
   "spriteMaskId":null,
   "visible":true,
