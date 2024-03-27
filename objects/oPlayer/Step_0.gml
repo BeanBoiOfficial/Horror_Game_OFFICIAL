@@ -13,4 +13,6 @@ else
 	key_down = 0;
 }
 
-Player_Movement(oBlock)
+Player_Collison(oBlock)
+
+Player_Animation()

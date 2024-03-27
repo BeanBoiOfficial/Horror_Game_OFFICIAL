@@ -1,4 +1,4 @@
-function Player_Movement(Collison)
+function Player_Collison(Collison)
 {
 	var moveH = key_right - key_left;
 	var moveV = key_down - key_up;
@@ -32,46 +32,4 @@ function Player_Movement(Collison)
 		vsp = 0;
 	}
 	y = y + vsp;
-	
-	if key_down or key_up or key_right or key_left
-	{
-		image_speed = 1
-	}
-	else
-	{
-		image_speed = 0
-		image_index = 0
-	}
-
-	if key_down
-	{
-		sprite_index = sPlayerDown
-	}
-
-	if key_up
-	{
-		sprite_index = sPlayerUp
-	}
-
-	if key_left
-	{
-		sprite_index = sPlayerLeft
-	}
-
-	if key_right
-	{
-		sprite_index = sPlayerRight
-	}
-	
-	if key_right and key_left
-	{
-		image_index = 0
-		image_speed = 0
-	}
-	
-	if key_up and key_down
-	{
-		image_index = 0
-		image_speed = 0
-	}
 }
