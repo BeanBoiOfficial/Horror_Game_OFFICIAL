@@ -9,6 +9,7 @@
     {"name":"Tile Sets","order":6,"path":"folders/Tile Sets.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"oNew","order":2,"path":"objects/oNew/oNew.yy",},
     {"name":"OImTired","order":1,"path":"objects/OImTired/OImTired.yy",},
     {"name":"Sprite2","order":1,"path":"sprites/Sprite2/Sprite2.yy",},
     {"name":"Sprite3","order":2,"path":"sprites/Sprite3/Sprite3.yy",},

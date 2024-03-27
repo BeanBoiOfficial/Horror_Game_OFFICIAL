@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"OImTired",
+  "%Name":"oNew",
   "eventList":[],
   "managed":true,
-  "name":"OImTired",
+  "name":"oNew",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sTEST",
-    "path":"sprites/sTEST/sTEST.yy",
+    "name":"Sprite3",
+    "path":"sprites/Sprite3/Sprite3.yy",
   },
   "spriteMaskId":null,
   "visible":true,

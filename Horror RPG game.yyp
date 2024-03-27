@@ -27,6 +27,7 @@
   },
   "name":"Horror RPG game",
   "resources":[
+    {"id":{"name":"oNew","path":"objects/oNew/oNew.yy",},},
     {"id":{"name":"OImTired","path":"objects/OImTired/OImTired.yy",},},
     {"id":{"name":"oTEST","path":"objects/oTEST/oTEST.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
