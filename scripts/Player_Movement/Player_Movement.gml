@@ -32,4 +32,34 @@ function Player_Movement(Collison)
 		vsp = 0;
 	}
 	y = y + vsp;
+	
+	if key_down or key_up or key_right or key_left
+	{
+		image_speed = 1
+	}
+	else
+	{
+		image_speed = 0
+		image_index = 0
+	}
+
+	if key_down
+	{
+		sprite_index = sPlayerDown
+	}
+
+	if key_up
+	{
+		sprite_index = sPlayerUp
+	}
+
+	if key_left
+	{
+		sprite_index = sPlayerLeft
+	}
+
+	if key_right
+	{
+		sprite_index = sPlayerRight
+	}
 }
