@@ -10,11 +10,12 @@
   ],
   "ResourceOrderSettings":[
     {"name":"oBlock","order":1,"path":"objects/oBlock/oBlock.yy",},
+    {"name":"Player_Animation","order":1,"path":"scripts/Player_Animation/Player_Animation.yy",},
     {"name":"sBlock","order":2,"path":"sprites/sBlock/sBlock.yy",},
+    {"name":"sMentalHealthHelper","order":6,"path":"sprites/sMentalHealthHelper/sMentalHealthHelper.yy",},
     {"name":"sPlayerDown","order":1,"path":"sprites/sPlayerDown/sPlayerDown.yy",},
     {"name":"sPlayerLeft","order":5,"path":"sprites/sPlayerLeft/sPlayerLeft.yy",},
     {"name":"sPlayerRight","order":4,"path":"sprites/sPlayerRight/sPlayerRight.yy",},
     {"name":"sPlayerUp","order":3,"path":"sprites/sPlayerUp/sPlayerUp.yy",},
-    {"name":"sMentalHealthHelper","order":6,"path":"sprites/sMentalHealthHelper/sMentalHealthHelper.yy",},
   ],
 }
