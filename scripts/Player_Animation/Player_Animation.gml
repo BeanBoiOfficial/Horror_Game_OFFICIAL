@@ -1,69 +1,20 @@
 
 function Player_Animation()
 {
-	if key_right
+	if yspd == 0
 	{
-		sprite_index = sPlayerRight
+	if xspd > 0 {face = RIGHT};
+	if xspd < 0 {face = LEFT};
 	}
+	if xspd > 0 && face == LEFT {face = RIGHT};
+	if xspd < 0 && face == RIGHT {face = LEFT};
+	if xspd = 0
+	{
+	if yspd > 0 {face = DOWN};
+	if yspd < 0 {face = UP};
+	}
+	if yspd > 0 && face == UP {face = DOWN};
+	if yspd < 0 && face == DOWN {face = UP};
 
-	if key_left
-	{
-		sprite_index = sPlayerLeft
-	}
-
-	if key_up
-	{
-		sprite_index = sPlayerUp
-	}
-
-	if key_down
-	{
-		sprite_index = sPlayerDown
-	}
-
-	if key_right or key_down or key_up or key_left
-	{
-		image_speed = 1
-	}
-	else
-	{
-		image_index = 0
-		image_speed = 0
-	}
-
-	if key_right and key_left and !key_up and !key_down
-	{
-		image_index = 0
-		image_speed = 0
-	}
-
-	if !key_right and !key_left and key_up and key_down
-	{
-		image_index = 0
-		image_speed = 0
-	}
-
-	if key_right and key_left and key_up
-	{
-		image_speed = 1
-		sprite_index = sPlayerUp
-	}
-
-	if key_right and key_left and key_down
-	{
-		image_speed = 1
-		sprite_index = sPlayerDown
-	}
-
-	if key_up and key_down and key_right
-	{
-		image_speed = 1
-		sprite_index = sPlayerRight
-	}
-
-	if key_up and key_down and key_left
-	{
-		image_speed = 1
-		sprite_index = sPlayerLeft
-	}
+	sprite_index = sprite[face];
 }
