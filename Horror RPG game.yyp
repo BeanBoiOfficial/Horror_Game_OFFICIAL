@@ -11,6 +11,7 @@
   "defaultScriptType":0,
   "Folders":[
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Menu_System","folderPath":"folders/Menu_System.yy","name":"Menu_System","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -27,9 +28,11 @@
   },
   "name":"Horror RPG game",
   "resources":[
-    {"id":{"name":"oPauser","path":"objects/oPauser/oPauser.yy",},},
+    {"id":{"name":"fMenu","path":"fonts/fMenu/fMenu.yy",},},
+    {"id":{"name":"oTitleMenu","path":"objects/oTitleMenu/oTitleMenu.yy",},},
     {"id":{"name":"oBlock","path":"objects/oBlock/oBlock.yy",},},
     {"id":{"name":"oFullscreen","path":"objects/oFullscreen/oFullscreen.yy",},},
+    {"id":{"name":"oPauser","path":"objects/oPauser/oPauser.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Player_Animation","path":"scripts/Player_Animation/Player_Animation.yy",},},
@@ -41,6 +44,7 @@
     {"id":{"name":"sPlayerLeft","path":"sprites/sPlayerLeft/sPlayerLeft.yy",},},
     {"id":{"name":"sPlayerRight","path":"sprites/sPlayerRight/sPlayerRight.yy",},},
     {"id":{"name":"sPlayerUp","path":"sprites/sPlayerUp/sPlayerUp.yy",},},
+    {"id":{"name":"spr_Menu","path":"sprites/spr_Menu/spr_Menu.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
