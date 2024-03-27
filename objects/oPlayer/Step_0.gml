@@ -2,10 +2,19 @@ key_right = keyboard_check(vk_right);
 key_left = keyboard_check(vk_left);
 key_up = keyboard_check(vk_up);
 key_down = keyboard_check(vk_down);
+key_shift = keyboard_check(vk_shift);
 
 xspd = (key_right - key_left) * walksp;
 yspd = (key_down - key_up) * walksp;
 
+if key_shift
+{
+	walksp = 2
+}
+else
+{
+	walksp = 1
+}
 
 //pauser
 if instance_exists(oPauser)
