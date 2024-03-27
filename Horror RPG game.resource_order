@@ -1,0 +1,15 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Fonts","order":5,"path":"folders/Fonts.yy",},
+    {"name":"Particle Systems","order":7,"path":"folders/Particle Systems.yy",},
+    {"name":"Rooms","order":2,"path":"folders/Rooms.yy",},
+    {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
+    {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
+    {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+    {"name":"Tile Sets","order":6,"path":"folders/Tile Sets.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"Sprite2","order":1,"path":"sprites/Sprite2/Sprite2.yy",},
+    {"name":"Sprite3","order":2,"path":"sprites/Sprite3/Sprite3.yy",},
+  ],
+}
