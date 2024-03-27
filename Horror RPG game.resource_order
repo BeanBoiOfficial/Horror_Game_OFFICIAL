@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[
     {"name":"Fonts","order":5,"path":"folders/Fonts.yy",},
+    {"name":"Menu_System","order":8,"path":"folders/Menu_System.yy",},
     {"name":"Particle Systems","order":7,"path":"folders/Particle Systems.yy",},
     {"name":"Rooms","order":2,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
@@ -9,9 +10,11 @@
     {"name":"Tile Sets","order":6,"path":"folders/Tile Sets.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"oPauser","order":3,"path":"objects/oPauser/oPauser.yy",},
+    {"name":"fMenu","order":1,"path":"fonts/fMenu/fMenu.yy",},
+    {"name":"oTitleMenu","order":3,"path":"objects/oTitleMenu/oTitleMenu.yy",},
     {"name":"oBlock","order":1,"path":"objects/oBlock/oBlock.yy",},
     {"name":"oFullscreen","order":2,"path":"objects/oFullscreen/oFullscreen.yy",},
+    {"name":"oPauser","order":3,"path":"objects/oPauser/oPauser.yy",},
     {"name":"Player_Animation","order":1,"path":"scripts/Player_Animation/Player_Animation.yy",},
     {"name":"ScrMacros","order":2,"path":"scripts/ScrMacros/ScrMacros.yy",},
     {"name":"sBlock","order":2,"path":"sprites/sBlock/sBlock.yy",},
@@ -20,5 +23,6 @@
     {"name":"sPlayerLeft","order":5,"path":"sprites/sPlayerLeft/sPlayerLeft.yy",},
     {"name":"sPlayerRight","order":4,"path":"sprites/sPlayerRight/sPlayerRight.yy",},
     {"name":"sPlayerUp","order":3,"path":"sprites/sPlayerUp/sPlayerUp.yy",},
+    {"name":"spr_Menu","order":2,"path":"sprites/spr_Menu/spr_Menu.yy",},
   ],
 }
