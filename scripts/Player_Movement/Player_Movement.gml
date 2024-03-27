@@ -62,4 +62,16 @@ function Player_Movement(Collison)
 	{
 		sprite_index = sPlayerRight
 	}
+	
+	if key_right and key_left
+	{
+		image_index = 0
+		image_speed = 0
+	}
+	
+	if key_up and key_down
+	{
+		image_index = 0
+		image_speed = 0
+	}
 }
