@@ -24,3 +24,24 @@ else
 	image_speed = 0
 	image_index = 0
 }
+
+if key_down
+{
+	sprite_index = sPlayerDown
+}
+
+if key_up
+{
+	sprite_index = sPlayerUp
+}
+
+if key_left
+{
+	sprite_index = sPlayerLeft
+}
+
+if key_right
+{
+	sprite_index = sPlayerRight
+}
+
