@@ -11,11 +11,12 @@
   ],
   "ResourceOrderSettings":[
     {"name":"fMenu","order":1,"path":"fonts/fMenu/fMenu.yy",},
-    {"name":"oFlashLight","order":4,"path":"objects/oFlashLight/oFlashLight.yy",},
     {"name":"oBlock","order":1,"path":"objects/oBlock/oBlock.yy",},
+    {"name":"oFlashLight","order":4,"path":"objects/oFlashLight/oFlashLight.yy",},
     {"name":"oFullscreen","order":2,"path":"objects/oFullscreen/oFullscreen.yy",},
     {"name":"oPauser","order":3,"path":"objects/oPauser/oPauser.yy",},
     {"name":"oTitleMenu","order":3,"path":"objects/oTitleMenu/oTitleMenu.yy",},
+    {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"Player_Animation","order":1,"path":"scripts/Player_Animation/Player_Animation.yy",},
     {"name":"ScrMacros","order":2,"path":"scripts/ScrMacros/ScrMacros.yy",},
     {"name":"sBlock","order":2,"path":"sprites/sBlock/sBlock.yy",},

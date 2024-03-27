@@ -29,13 +29,14 @@
   "name":"Horror RPG game",
   "resources":[
     {"id":{"name":"fMenu","path":"fonts/fMenu/fMenu.yy",},},
-    {"id":{"name":"oFlashLight","path":"objects/oFlashLight/oFlashLight.yy",},},
     {"id":{"name":"oBlock","path":"objects/oBlock/oBlock.yy",},},
+    {"id":{"name":"oFlashLight","path":"objects/oFlashLight/oFlashLight.yy",},},
     {"id":{"name":"oFullscreen","path":"objects/oFullscreen/oFullscreen.yy",},},
     {"id":{"name":"oPauser","path":"objects/oPauser/oPauser.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oTitleMenu","path":"objects/oTitleMenu/oTitleMenu.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"Player_Animation","path":"scripts/Player_Animation/Player_Animation.yy",},},
     {"id":{"name":"Player_Collision","path":"scripts/Player_Collision/Player_Collision.yy",},},
     {"id":{"name":"ScrMacros","path":"scripts/ScrMacros/ScrMacros.yy",},},
@@ -51,6 +52,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
