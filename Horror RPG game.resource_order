@@ -9,9 +9,11 @@
     {"name":"Tile Sets","order":6,"path":"folders/Tile Sets.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"oFullscreen","order":2,"path":"objects/oFullscreen/oFullscreen.yy",},
+    {"name":"oPauser","order":3,"path":"objects/oPauser/oPauser.yy",},
     {"name":"oBlock","order":1,"path":"objects/oBlock/oBlock.yy",},
+    {"name":"oFullscreen","order":2,"path":"objects/oFullscreen/oFullscreen.yy",},
     {"name":"Player_Animation","order":1,"path":"scripts/Player_Animation/Player_Animation.yy",},
+    {"name":"ScrMacros","order":2,"path":"scripts/ScrMacros/ScrMacros.yy",},
     {"name":"sBlock","order":2,"path":"sprites/sBlock/sBlock.yy",},
     {"name":"sMentalHealthHelper","order":6,"path":"sprites/sMentalHealthHelper/sMentalHealthHelper.yy",},
     {"name":"sPlayerDown","order":1,"path":"sprites/sPlayerDown/sPlayerDown.yy",},

@@ -1,9 +1,12 @@
-hsp = 0;
-vsp = 0;
-hascontrol = 1;
-walksp = 2;
+xspd = 0;
+yspd = 0;
 
-move_left = false;
-move_right = false;
-move_up = false;
-move_down = false;
+move_spd = 0.5;
+
+
+sprite[RIGHT] = sPlayerRight;
+sprite[UP] = sPlayerUp;
+sprite[LEFT] = sPlayerLeft;
+sprite[DOWN] = sPlayerDown;
+
+face = DOWN;
