@@ -1,0 +1,1 @@
+audio_play_sound(ssSchoolSong,0,1)

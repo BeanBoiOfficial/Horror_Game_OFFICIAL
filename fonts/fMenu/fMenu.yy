@@ -904,8 +904,8 @@
   "maintainGms1Font":false,
   "name":"fMenu",
   "parent":{
-    "name":"Menu_System",
-    "path":"folders/Menu_System.yy",
+    "name":"Menu System",
+    "path":"folders/Menu System.yy",
   },
   "pointRounding":0,
   "ranges":[
