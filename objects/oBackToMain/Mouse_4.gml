@@ -1,1 +1,2 @@
-room_goto(Main_Menu)
+global.End = true
+global.Start = false

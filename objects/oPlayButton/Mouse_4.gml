@@ -1,4 +1,6 @@
 if PressPlay = true
 {
-	room_goto(Test)
+	global.End = true
+	global.Start = false
+	PressedPlay = true
 }

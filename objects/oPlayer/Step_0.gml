@@ -17,7 +17,7 @@ else
 }
 
 //pauser
-if instance_exists(oPauser)
+if instance_exists(oPause)
 {
 	xspd = 0;
 	yspd = 0;

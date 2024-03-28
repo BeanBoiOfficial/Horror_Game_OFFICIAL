@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oPauser",
+  "%Name":"oPause",
   "eventList":[],
   "managed":true,
-  "name":"oPauser",
+  "name":"oPause",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

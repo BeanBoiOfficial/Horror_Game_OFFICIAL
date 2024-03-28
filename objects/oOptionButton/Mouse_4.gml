@@ -1,4 +1,6 @@
 if PressOption = true
 {
-	room_goto(Option_Menu)
+	global.End = true
+	global.Start = false
+	PressedOption = true
 }

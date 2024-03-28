@@ -1,4 +1,6 @@
 if PressExit = true
 {
-	game_end();
+	global.End = true
+	global.Start = false
+	PressedExit = true
 }

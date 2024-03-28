@@ -1,7 +1,7 @@
 
 if UsingFlashLight = true
 {
-	if oPlayer.sprite_index = sPlayerRight
+	if oPlayer.face = RIGHT
 	{
 		image_angle = 0
 		x = oPlayer.x+16
@@ -9,7 +9,7 @@ if UsingFlashLight = true
 		depth = oPlayer.depth + 1
 	}
 
-	if oPlayer.sprite_index = sPlayerLeft
+	if oPlayer.face = LEFT
 	{
 		image_angle = 180
 		x = oPlayer.x+16
@@ -17,7 +17,7 @@ if UsingFlashLight = true
 		depth = oPlayer.depth + 1
 	}
 
-	if oPlayer.sprite_index = sPlayerDown
+	if oPlayer.face = DOWN
 	{
 		image_angle = 270
 		x = oPlayer.x+47.5
@@ -25,7 +25,7 @@ if UsingFlashLight = true
 		depth = oPlayer.depth - 100
 	}
 
-	if oPlayer.sprite_index = sPlayerUp
+	if oPlayer.face = UP
 	{
 		image_angle = 90
 		x = oPlayer.x-16

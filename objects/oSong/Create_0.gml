@@ -1,1 +1,4 @@
-audio_play_sound(ssSchoolSong,0,1)
+if !audio_is_playing(ssSchoolMenuSong)
+{
+	audio_play_sound(ssSchoolMenuSong,0,1)
+}
