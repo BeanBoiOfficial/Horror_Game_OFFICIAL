@@ -1,5 +1,5 @@
-width = 100;
-height = 500;
+width = 2000;
+height = 6500;
 
 op_border = 8;
 op_space = 16;
