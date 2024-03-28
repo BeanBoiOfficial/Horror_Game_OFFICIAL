@@ -1,4 +1,4 @@
-EBV = 8.5
+EBV = 8.55
 PressExit = false
 
 alarm_set(0,90)

@@ -1,12 +1,11 @@
-x += PBV
+y -= OBV
 
-if PBV > 0
+if OBV > 0
 {
-	PBV -= 0.1
+	OBV -= 0.1
 	alarm_set(0,1)
 }
 else
 {
 	alarm_set(1,1)
-	x = 270
 }

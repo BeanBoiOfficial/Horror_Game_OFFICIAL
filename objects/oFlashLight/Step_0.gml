@@ -6,7 +6,7 @@ if UsingFlashLight = true
 		image_angle = 0
 		x = oPlayer.x+16
 		y = oPlayer.y-10
-		depth = 1
+		depth = oPlayer.depth + 1
 	}
 
 	if oPlayer.sprite_index = sPlayerLeft
@@ -14,7 +14,7 @@ if UsingFlashLight = true
 		image_angle = 180
 		x = oPlayer.x+16
 		y = oPlayer.y+53
-		depth = 1
+		depth = oPlayer.depth + 1
 	}
 
 	if oPlayer.sprite_index = sPlayerDown
@@ -22,7 +22,7 @@ if UsingFlashLight = true
 		image_angle = 270
 		x = oPlayer.x+47.5
 		y = oPlayer.y+20
-		depth = -90000
+		depth = oPlayer.depth - 100
 	}
 
 	if oPlayer.sprite_index = sPlayerUp
@@ -30,6 +30,10 @@ if UsingFlashLight = true
 		image_angle = 90
 		x = oPlayer.x-16
 		y = oPlayer.y+20
-		depth = 1
+		depth = oPlayer.depth + 100
 	}
+}
+else
+{
+	depth = oPlayer.depth + 100
 }

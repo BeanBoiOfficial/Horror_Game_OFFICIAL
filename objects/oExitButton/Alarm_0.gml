@@ -8,4 +8,5 @@ if EBV > 0
 else
 {
 	alarm_set(1,1)
+	x = 270
 }
