@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[
     {"name":"Fonts","order":6,"path":"folders/Fonts.yy",},
+    {"name":"Dialogue System","order":9,"path":"folders/Dialogue System.yy",},
     {"name":"Menu System","order":1,"path":"folders/Menu System.yy",},
     {"name":"Particle Systems","order":8,"path":"folders/Particle Systems.yy",},
     {"name":"Rooms","order":3,"path":"folders/Rooms.yy",},
@@ -19,14 +20,15 @@
     {"name":"oOptionButton","order":3,"path":"objects/oOptionButton/oOptionButton.yy",},
     {"name":"oPause","order":3,"path":"objects/oPause/oPause.yy",},
     {"name":"oPlayButton","order":2,"path":"objects/oPlayButton/oPlayButton.yy",},
+    {"name":"oSettings","order":1,"path":"objects/oSettings/oSettings.yy",},
     {"name":"oSong","order":5,"path":"objects/oSong/oSong.yy",},
     {"name":"oTitleMenu","order":1,"path":"objects/oTitleMenu/oTitleMenu.yy",},
     {"name":"oTranstion","order":6,"path":"objects/oTranstion/oTranstion.yy",},
     {"name":"Main_Menu","order":2,"path":"rooms/Main_Menu/Main_Menu.yy",},
     {"name":"Option_Menu","order":1,"path":"rooms/Option_Menu/Option_Menu.yy",},
+    {"name":"Macro","order":4,"path":"scripts/Macro/Macro.yy",},
     {"name":"Player_Animation","order":1,"path":"scripts/Player_Animation/Player_Animation.yy",},
     {"name":"Save_File","order":3,"path":"scripts/Save_File/Save_File.yy",},
-    {"name":"Macro","order":4,"path":"scripts/Macro/Macro.yy",},
     {"name":"sBackToMain","order":11,"path":"sprites/sBackToMain/sBackToMain.yy",},
     {"name":"sCheck","order":12,"path":"sprites/sCheck/sCheck.yy",},
     {"name":"sExitButton","order":10,"path":"sprites/sExitButton/sExitButton.yy",},
@@ -40,6 +42,7 @@
     {"name":"sPlayerLeft","order":4,"path":"sprites/sPlayerLeft/sPlayerLeft.yy",},
     {"name":"sPlayerRight","order":3,"path":"sprites/sPlayerRight/sPlayerRight.yy",},
     {"name":"sPlayerUp","order":2,"path":"sprites/sPlayerUp/sPlayerUp.yy",},
+    {"name":"Dialogue_Textbox","order":2,"path":"sprites/Dialogue_Textbox/Dialogue_Textbox.yy",},
     {"name":"sTranstion","order":14,"path":"sprites/sTranstion/sTranstion.yy",},
   ],
 }
