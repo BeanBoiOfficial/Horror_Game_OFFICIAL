@@ -1,3 +1,39 @@
+if global.WithFlashLight = false
+{
+	sprite[RIGHT] = sPlayerRight;
+	sprite[UP] = sPlayerUp;
+	sprite[LEFT] = sPlayerLeft;
+	sprite[DOWN] = sPlayerDown;
+}
+
+if global.WithFlashLight = true
+{
+	if global.FlashLight = global.off
+	{
+		sprite[RIGHT] = sPlayerFlashlightRight;
+		sprite[UP] = sPlayerFlashlightUp;
+		sprite[LEFT] = sPlayerFlashlightLeft;
+		sprite[DOWN] = sPlayerFlashlightDown;
+	}
+
+	if global.FlashLight = global.on
+	{
+		sprite[RIGHT] = sPlayerFlashlightRight;
+		sprite[UP] = sPlayerFlashlightUp;
+		sprite[LEFT] = sPlayerFlashlightLeft;
+		sprite[DOWN] = sPlayerFlashlightOnDown;
+	}
+}
+
+if global.WithFlashLight = true
+{
+	if global.FlashLight = global.on
+	{
+		
+	}
+}
+
+
 key_right = keyboard_check(vk_right);
 key_left = keyboard_check(vk_left);
 key_up = keyboard_check(vk_up);

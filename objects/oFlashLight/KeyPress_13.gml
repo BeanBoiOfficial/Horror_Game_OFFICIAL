@@ -1,8 +1,5 @@
-if place_meeting(x,y,oPlayer) and UsingFlashLight = false
+if place_meeting(x,y,oPlayer) and global.WithFlashLight = false
 {
-	UsingFlashLight = true
-}
-else
-{
-	UsingFlashLight = false
+	global.WithFlashLight = true
+	instance_destroy();
 }
