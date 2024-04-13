@@ -18,9 +18,9 @@ if global.WithFlashLight = true
 
 	if global.FlashLight = global.on
 	{
-		sprite[RIGHT] = sPlayerFlashlightRight;
-		sprite[UP] = sPlayerFlashlightUp;
-		sprite[LEFT] = sPlayerFlashlightLeft;
+		sprite[RIGHT] = sPlayerFlashlightOnRight;
+		sprite[UP] = sPlayerFlashlightOnUp;
+		sprite[LEFT] = sPlayerFlashlightOnLeft;
 		sprite[DOWN] = sPlayerFlashlightOnDown;
 	}
 }
@@ -46,10 +46,12 @@ yspd = (key_down - key_up) * walksp;
 if key_shift
 {
 	walksp = 2
+	image_speed = 2
 }
 else
 {
 	walksp = 1
+	image_speed = 1
 }
 
 //pauser
@@ -65,14 +67,14 @@ if yspd == 0
 if xspd > 0 {face = RIGHT};
 if xspd < 0 {face = LEFT};
 }
-if xspd > 0 && face == LEFT {face = RIGHT};
-if xspd < 0 && face == RIGHT {face = LEFT};
+if xspd > 0 && face == LEFT {oLight.depth = 0 face = RIGHT};
+if xspd < 0 && face == RIGHT {oLight.depth = 0 face = LEFT};
 if xspd = 0
 {
 if yspd > 0 {face = DOWN};
 if yspd < 0 {face = UP};
 }
-if yspd > 0 && face == UP {face = DOWN};
+if yspd > 0 && face == UP {oLight.depth = 0 face = DOWN};
 if yspd < 0 && face == DOWN {face = UP};
 
 sprite_index = sprite[face];
@@ -86,7 +88,4 @@ if xspd == 0 && yspd == 0
 {
 	image_index = 0;
 }
-
-//Depth
-depth = -bbox_bottom;
    
