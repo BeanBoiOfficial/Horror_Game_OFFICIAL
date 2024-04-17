@@ -66,26 +66,22 @@ if yspd == 0
 {
 	if xspd > 0 
 	{
-		oLight.depth = 0
 		face = RIGHT
 	}
 	
 	if xspd < 0 
 	{
-		oLight.depth = 0
 		face = LEFT
 	}
 }
 
 if xspd > 0 && face == LEFT 
 {
-	oLight.depth = 0
 	face = RIGHT
 }
 
 if xspd < 0 && face == RIGHT 
 {
-	oLight.depth = 0
 	face = LEFT
 }
 
@@ -93,7 +89,6 @@ if xspd = 0
 {
 	if yspd > 0 
 	{
-		oLight.depth = 0
 		face = DOWN
 	}
 	
@@ -105,7 +100,6 @@ if xspd = 0
 
 if yspd > 0 && face == UP 
 {
-	oLight.depth = 0
 	face = DOWN
 }
 
