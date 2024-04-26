@@ -25,3 +25,7 @@ else
 {
 	global.TouchedMouse = false
 }
+
+ini_open("SaveFile.ini");
+ini_write_real("Sound","Volume",global.SoundVol_)
+ini_close();

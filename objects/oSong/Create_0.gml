@@ -1,6 +1,8 @@
 global.BgmEmitter = audio_emitter_create();
 
-global.MusicVol_ = 1;
+ini_open("SaveFile.ini");
+global.MusicVol_ = ini_read_real("Music","Volume",1)
+ini_close();
 
 audio_emitter_gain(global.BgmEmitter,global.MusicVol_);
 

@@ -1,5 +1,8 @@
 /// @description Initialize variables
-global.SoundVol_ = 1;
+ini_open("SaveFile.ini");
+global.SoundVol_ = ini_read_real("Sound","Volume",global.SoundVol_)
+ini_close();
+
 max_value_ = 1;
 selected_ = false;
 image_speed = 0;

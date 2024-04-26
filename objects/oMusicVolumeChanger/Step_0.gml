@@ -16,3 +16,7 @@ if selected_ {
 	global.MusicVol_ = clamp((mouse_x-x)/sprite_width, 0, max_value_);
 	event_user(0);
 }
+
+ini_open("SaveFile.ini");
+ini_write_real("Music","Volume",global.MusicVol_)
+ini_close();
