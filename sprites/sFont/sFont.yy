@@ -2,8 +2,13 @@
   "$GMSprite":"",
   "%Name":"sFont",
   "bboxMode":0,
+<<<<<<< HEAD
   "bbox_bottom":55,
   "bbox_left":1,
+=======
+  "bbox_bottom":53,
+  "bbox_left":0,
+>>>>>>> 1d8f7d376ddf2addb88c4e650de1b16d4d388b4f
   "bbox_right":118,
   "bbox_top":0,
   "collisionKind":1,
