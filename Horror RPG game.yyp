@@ -138,7 +138,6 @@
     {"id":{"name":"sCheck","path":"sprites/sCheck/sCheck.yy",},},
     {"id":{"name":"sExitButton","path":"sprites/sExitButton/sExitButton.yy",},},
     {"id":{"name":"sFlashLight","path":"sprites/sFlashLight/sFlashLight.yy",},},
-    {"id":{"name":"sFont","path":"sprites/sFont/sFont.yy",},},
     {"id":{"name":"sFullScreenText","path":"sprites/sFullScreenText/sFullScreenText.yy",},},
     {"id":{"name":"sLight","path":"sprites/sLight/sLight.yy",},},
     {"id":{"name":"sMentalHealthHelper","path":"sprites/sMentalHealthHelper/sMentalHealthHelper.yy",},},

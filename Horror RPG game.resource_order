@@ -105,7 +105,6 @@
     {"name":"sCheck","order":12,"path":"sprites/sCheck/sCheck.yy",},
     {"name":"sExitButton","order":10,"path":"sprites/sExitButton/sExitButton.yy",},
     {"name":"sFlashLight","order":6,"path":"sprites/sFlashLight/sFlashLight.yy",},
-    {"name":"sFont","order":3,"path":"sprites/sFont/sFont.yy",},
     {"name":"sFullScreenText","order":13,"path":"sprites/sFullScreenText/sFullScreenText.yy",},
     {"name":"sLight","order":20,"path":"sprites/sLight/sLight.yy",},
     {"name":"sMentalHealthHelper","order":5,"path":"sprites/sMentalHealthHelper/sMentalHealthHelper.yy",},
