@@ -168,6 +168,7 @@
     {"id":{"name":"spr_lut_light_intensity_line","path":"sprites/spr_lut_light_intensity_line/spr_lut_light_intensity_line.yy",},},
     {"id":{"name":"spr_lut_light_intensity_linear","path":"sprites/spr_lut_light_intensity_linear/spr_lut_light_intensity_linear.yy",},},
     {"id":{"name":"spr_lut_light_intensity_spot","path":"sprites/spr_lut_light_intensity_spot/spr_lut_light_intensity_spot.yy",},},
+    {"id":{"name":"sFont","path":"sprites/sFont/sFont.yy",},},
     {"id":{"name":"sSlider","path":"sprites/sSlider/sSlider.yy",},},
     {"id":{"name":"sSliderButton","path":"sprites/sSliderButton/sSliderButton.yy",},},
     {"id":{"name":"sSoundVolumeText","path":"sprites/sSoundVolumeText/sSoundVolumeText.yy",},},

@@ -134,6 +134,7 @@
     {"name":"spr_lut_light_intensity_line","order":1,"path":"sprites/spr_lut_light_intensity_line/spr_lut_light_intensity_line.yy",},
     {"name":"spr_lut_light_intensity_linear","order":2,"path":"sprites/spr_lut_light_intensity_linear/spr_lut_light_intensity_linear.yy",},
     {"name":"spr_lut_light_intensity_spot","order":3,"path":"sprites/spr_lut_light_intensity_spot/spr_lut_light_intensity_spot.yy",},
+    {"name":"sFont","order":3,"path":"sprites/sFont/sFont.yy",},
     {"name":"sSlider","order":25,"path":"sprites/sSlider/sSlider.yy",},
     {"name":"sSliderButton","order":26,"path":"sprites/sSliderButton/sSliderButton.yy",},
     {"name":"sSoundVolumeText","order":29,"path":"sprites/sSoundVolumeText/sSoundVolumeText.yy",},
