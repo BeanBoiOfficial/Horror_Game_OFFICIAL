@@ -1,0 +1,1 @@
+draw_surface(dark,0,0)
