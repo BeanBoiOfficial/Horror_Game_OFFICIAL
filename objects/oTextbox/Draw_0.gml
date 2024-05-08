@@ -1,8 +1,7 @@
 accept_key = keyboard_check_pressed( vk_space );
 
-textbox_X = camera_get_view_x( view_camera[0] );
-textbox_y = camera_get_view_y( view_camera[0] ) + 144;
-
+textbox_X = camera_get_view_x(view_camera[0]);
+textbox_y = camera_get_view_y(view_camera[0])+camera_get_view_height(view_camera[0])-144;
 
 //setup
 if setup == false
@@ -79,4 +78,4 @@ draw_sprite_ext(txtb_spr, txtb_img, textbox_X + text_x_offset[page], textbox_y, 
 
 //draw the text
 var _drawtext = string_copy(text[page], 1, draw_char);
-draw_text_ext(textbox_X + text_x_offset[page] + border, textbox_y + border, _drawtext, line_sep, line_width);
+draw_text_ext(textbox_X + text_x_offset[page] + border_x, textbox_y + border_y, _drawtext, line_sep, line_width);
