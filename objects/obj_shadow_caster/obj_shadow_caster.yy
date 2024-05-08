@@ -26,7 +26,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"shadow_length","filters":[
+    {"$GMObjectProperty":"","%Name":"shadow_length","filters":[
         "GMTileSet",
         "GMSprite",
         "GMSound",
@@ -37,7 +37,7 @@
         "GMTimeLine",
         "GMObject",
         "GMRoom",
-      ],"listItems":null,"multiselect":false,"name":"shadow_length","rangeEnabled":true,"rangeMax":65536.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"32000","varType":1,},
+      ],"listItems":null,"multiselect":false,"name":"shadow_length","rangeEnabled":true,"rangeMax":65536.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"32000","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
