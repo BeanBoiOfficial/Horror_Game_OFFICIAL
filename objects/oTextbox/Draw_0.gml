@@ -5,8 +5,7 @@ textbox_y = camera_get_view_y(view_camera[0])+camera_get_view_height(view_camera
 
 //setup
 if setup == false
-    {
-		
+{	
 	setup = true;
 	draw_set_font(global.font_main);
 	draw_set_valign(fa_top);
@@ -14,58 +13,54 @@ if setup == false
 	
 	//loop through the pages
 	page_number = array_length(text);
+	
 	for(var p = 0; p < page_number; p++)
-	    {
-	    
+	{
 		//find how many characters are on each page and store that number in the "text_length" array
 	    text_length[p] = string_length(text[p]);
 	
 	   //get the x position for the textbox
 	     //no character (center the textbox)
 	    text_x_offset[p] = 44;
-		
-		}
-	
 	}
+}
 
 
 
 //typing the text
 if draw_char < text_length[page]
-    {
+{
 	draw_char += text_spd;
 	draw_chr = clamp(draw_char, 0, text_length[page]);
-	}
+}
 	
 	
 //flip through pages
 if accept_key
-    {
-    
+{
 	//if the typing is done
 	if draw_char == text_length[page]
-	
 	{
-	//next page
-	if page < page_number-1
-	{
-	page++;
-	draw_char = 0;
-	  }
-	  //destroy textbox
-	  else
-	  {
-		  instance_destroy();
-    	}
+		//next page
+		if page < page_number-1
+		{
+			page++;
+			draw_char = 0;
+		}
 		
-   	}
+		//destroy textbox
+		else
+		{
+			  instance_destroy();
+		}
+	}
+	
 	//if not done typing
 	else
-    {
-	draw_char = text_length[page];
-}
-	
+	{
+		draw_char = text_length[page];
 	}
+}
 
 
 //draw the texbox
