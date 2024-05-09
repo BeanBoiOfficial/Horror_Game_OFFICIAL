@@ -17,7 +17,7 @@ page_number = 0;
 text[0] = "Heres a long text to see if it works alright, hello world!";
 text[1] = "Here is another long text to see if everything works!";
 text[2] = "short text";
-text[3] = "long text weghghfdsgh sagdsfhgsdfdb ildfbghlsriebvgefibg rfrgiueffbgeuirbg eirubghierubgeikg ikeurbgierbg oeurbgeiorbg lfngobnfgiohnfiguohn ofngnifgihlnfglhin fihilfmghilfgmh lhmlifgmhfghfgh";
+text[3] = "long text weghghfdsgh sagdsfhgsdfdb ildfbghlsriebvgefibg rfrgiueffbgeudsdkeurbgierbg oeurbgeiorbg lfngobnghfgh";
 text[4] = "TEST 0123456789 abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ |*/.;><,:\}{[])(*&^%$#@!~`_+-="
 text_length[0] = string_length(text[0]);
 draw_char = 0;
