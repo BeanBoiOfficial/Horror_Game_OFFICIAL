@@ -7,7 +7,7 @@
   "managed":true,
   "name":"oTestLight",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},"propertyId":{"name":"Light_Range","path":"objects/obj_light/obj_light.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"206",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},"propertyId":{"name":"Light_Range","path":"objects/obj_light/obj_light.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"206",},
   ],
   "parent":{
     "name":"Lighting",
