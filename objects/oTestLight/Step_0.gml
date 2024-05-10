@@ -11,8 +11,8 @@ if global.FlashLight = global.off
 if global.FlashLight = global.on
 {
 	light[| eLight.X] = oPlayer.x+16
-	light[| eLight.Y] = oPlayer.y+16
+	light[| eLight.Y] = oPlayer.y+19
 
 	x = oPlayer.x+16
-	y = oPlayer.y+16
+	y = oPlayer.y+19
 }

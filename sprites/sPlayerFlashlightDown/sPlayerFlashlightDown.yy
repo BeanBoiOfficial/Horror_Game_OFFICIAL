@@ -1,11 +1,11 @@
 {
   "$GMSprite":"",
   "%Name":"sPlayerFlashlightDown",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":29,
   "bbox_left":8,
   "bbox_right":23,
-  "bbox_top":4,
+  "bbox_top":18,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
