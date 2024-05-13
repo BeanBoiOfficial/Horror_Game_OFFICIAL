@@ -1,22 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"oTestLight",
+  "%Name":"oSpeakBlock",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oTestLight",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},"propertyId":{"name":"Light_Range","path":"objects/obj_light/obj_light.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"206",},
-  ],
+  "name":"oSpeakBlock",
+  "overriddenProperties":[],
   "parent":{
-    "name":"Lighting",
-    "path":"folders/Objects/Lighting.yy",
+    "name":"Dialogue System",
+    "path":"folders/Dialogue System.yy",
   },
-  "parentObjectId":{
-    "name":"obj_light",
-    "path":"objects/obj_light/obj_light.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -35,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_light_point",
-    "path":"sprites/spr_light_point/spr_light_point.yy",
+    "name":"s_SpeakBlock",
+    "path":"sprites/s_SpeakBlock/s_SpeakBlock.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
