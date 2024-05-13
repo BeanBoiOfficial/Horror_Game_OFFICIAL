@@ -112,7 +112,7 @@ sprite_index = sprite[face];
 
 
 //collision
-Player_Collison(oBlock)
+Player_Collison(oCollision)
 
 //animate
 if xspd == 0 && yspd == 0
