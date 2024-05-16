@@ -99,6 +99,7 @@
     {"name":"polygon_from_path","order":6,"path":"scripts/polygon_from_path/polygon_from_path.yy",},
     {"name":"polygon_get_area","order":7,"path":"scripts/polygon_get_area/polygon_get_area.yy",},
     {"name":"Save_File","order":3,"path":"scripts/Save_File/Save_File.yy",},
+    {"name":"scr_game_text","order":9,"path":"scripts/scr_game_text/scr_game_text.yy",},
     {"name":"scr_textbox_functions","order":6,"path":"scripts/scr_textbox_functions/scr_textbox_functions.yy",},
     {"name":"shadow_casters_exist","order":8,"path":"scripts/shadow_casters_exist/shadow_casters_exist.yy",},
     {"name":"shadow_map_ensure_exists","order":9,"path":"scripts/shadow_map_ensure_exists/shadow_map_ensure_exists.yy",},

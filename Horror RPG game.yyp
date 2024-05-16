@@ -129,6 +129,7 @@
     {"id":{"name":"polygon_from_path","path":"scripts/polygon_from_path/polygon_from_path.yy",},},
     {"id":{"name":"polygon_get_area","path":"scripts/polygon_get_area/polygon_get_area.yy",},},
     {"id":{"name":"Save_File","path":"scripts/Save_File/Save_File.yy",},},
+    {"id":{"name":"scr_game_text","path":"scripts/scr_game_text/scr_game_text.yy",},},
     {"id":{"name":"scr_textbox_functions","path":"scripts/scr_textbox_functions/scr_textbox_functions.yy",},},
     {"id":{"name":"shadow_casters_exist","path":"scripts/shadow_casters_exist/shadow_casters_exist.yy",},},
     {"id":{"name":"shadow_map_ensure_exists","path":"scripts/shadow_map_ensure_exists/shadow_map_ensure_exists.yy",},},
